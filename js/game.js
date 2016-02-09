@@ -88,7 +88,7 @@ MissleDodge.gameState.prototype = {
 		//keeping the heart count
 		heartCount = 0;
 
-		heartGravity = 1500;
+		heartGravity = 200;
 		spawnSpeed = 1;
 
 		this.time.events.loop(spawnSpeed, this.spawnHeart, this);
